@@ -1,0 +1,47 @@
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    max-height: 50px; /* Ustawienie wysokości nawigacji */
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+    position: relative;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Ustawienie, aby linki miały tę samą wysokość */
+    position: relative;
+    overflow: hidden; /* Dodane, aby animacje nie wychodziły poza element */
+  }
+  
+  .nav-links a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0; /* Ustawienie linii na dole nawigacji */
+    width: 0%;
+    height: 3px;
+    background-color: #aaa;
+    transition: width 0.3s ease;
+  }
+  
+  .nav-links a:hover::after,
+  .nav-links a.active::after {
+    width: 100%;
+    background-color: red;
+  }
+  
+  .nav-links a:hover {
+    color: #fff;
+  }

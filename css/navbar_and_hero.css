@@ -1,0 +1,210 @@
+/* Główne */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 1;
+  color: #333;
+}
+
+header {
+  background-color: #fff;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* mavbar */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 7vw;
+  max-height: 70px; /* Możliwe do zmiany! */
+}
+
+.logo img {
+  height: 100%;
+} 
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  list-style: none;
+  text-align: center;
+}
+
+.nav-links li {
+  margin-left: 40px;
+  white-space: nowrap;
+  height: 50px;
+  align-content: center;
+  position: relative;
+}
+
+.nav-links li::after {
+  content: '';
+  position: absolute;
+  bottom: -7px; 
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: red; 
+  width: 0%; 
+  opacity: 0%;
+  transition: width 0.5s ease, opacity 0.5s ease; 
+}
+
+.nav-links li:hover::after {
+  width: 100%; 
+  opacity: 100%;
+}
+
+
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.nav-links a:hover {
+  color: #0056b3;
+}
+
+.contact-buttons {
+  display: flex;
+}
+
+.phone-button,
+.quote-button {
+  margin-left: 10px;
+  padding: 10px 15px;
+  background-color: #0056b3;
+  color: #fff;
+  border-radius: 21px;
+  text-decoration: none;
+}
+
+.phone-button {
+  width: 180px;
+  text-align: center;
+}
+
+.quote-button {
+  width: 130px;
+  text-align: center;
+}
+
+.phone-button:hover,
+.quote-button:hover {
+  background-color: #004494;
+}
+
+.fa-phone {
+  margin-right: 5px;
+}
+.fa-envelope {
+  margin-right: 5px;
+}
+
+
+/* SEKCJA POD NAVBAREM */
+main {
+  /* max-width: 1200px; */
+  margin: 20px auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hero h2 {
+  font-size: 32px;
+  color: #333;
+}
+
+.hero strong {
+  color: #e53e3e;
+}
+
+.services {
+  position: relative;
+  display: flex;
+}
+
+.service-item {
+  height: 220px;
+  width: 600px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 7px;
+}
+
+.service-content {
+  height: 100%;
+  width: 100%;
+  transition: .2s;
+  border-radius: 20px;
+}
+
+
+.left:hover {
+  margin-left: -50px;
+  width: 650px;
+}
+
+.right:hover {
+  margin-right: -50px;
+  width: 650px;
+}
+
+
+.main_section1 {
+  background-image: url("/static/main_section (1).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main_section2 {
+  background-image: url("/static/main_section (2).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main_section3 {
+  background-image: url("/static/main_section (3).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main_section4 {
+  background-image: url("/static/main_section (4).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.service-content h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.service-content .highlight {
+  color: red;
+}
+
+

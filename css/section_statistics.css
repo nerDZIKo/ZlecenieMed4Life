@@ -1,0 +1,37 @@
+.statistics {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly; ;
+    align-items: flex-end; 
+    gap: 20px; 
+    padding: 20px; 
+    margin-top: 3vh;
+}
+
+.stats-item {
+    flex: 1; 
+    text-align: center; 
+}
+
+.stats-item h3 {
+    color: #004494;
+    font-size: 24px; 
+    margin-bottom: 10px; 
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #004494; 
+    background-color: #fff; 
+    border: 2px solid #004494;
+    border-radius: 20px; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.btn:hover {
+    background-color: #004494; 
+    color: #fff; 
+}
