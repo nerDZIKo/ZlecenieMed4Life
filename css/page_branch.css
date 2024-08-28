@@ -1,0 +1,22 @@
+.page-branch {
+    height: 35vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.branch-szkolenia {
+    background-image: url('../static/zdjecia_dzialowe/zdjeciedzialowe (4).png');
+}
+
+.branch-zabezpieczenia {
+    background-image: url('../static/zdjecia_dzialowe/zdjeciedzialowe (5).png');
+}
+
+.branch-title {
+    color: white;
+}

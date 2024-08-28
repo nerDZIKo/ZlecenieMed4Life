@@ -1,0 +1,27 @@
+.about-us-text-section {
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin-bottom: 5vh;
+}
+
+.about-us-item {
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about-us {
+    height: 100%;
+    width: 60%;
+    text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 20px;
+    font-weight: 400;
+}

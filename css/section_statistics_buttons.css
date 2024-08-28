@@ -8,6 +8,10 @@
     margin-top: 3vh;
 }
 
+.under_offer {
+    margin-top: 0;
+}
+
 .stats-item {
     flex: 1; 
     text-align: center; 
@@ -34,4 +38,24 @@
 .btn:hover {
     background-color: #004494; 
     color: #fff; 
+}
+
+.alternative {
+    background-color: #004494; 
+    color: #fff; 
+    width: 120px;
+    font-size: 11px;
+}
+
+.alternative:hover {
+    background-color: #fff; 
+    color: #004494; 
+}
+
+.second-version {
+    width: 160px;
+}
+
+.longer_btn {
+    width: 200px;
 }

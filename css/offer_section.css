@@ -1,0 +1,97 @@
+.offer-section {
+    /* height: 35vh; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    /* background-color: #004494; */
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+
+.offer-h3 {
+    font-size: 24px;
+    margin-top: 3vh;
+}
+
+.offer-wrapper {
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-boxes {
+    /* background-color: aqua; */
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.line_of_offer_boxes {
+    display: flex;
+}
+
+.offer-box {
+    background-color: brown;
+    height: 361px;
+    width: 334px;
+    border: 5px solid black;
+    margin: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 2.6vw;
+    align-items: center;
+}
+
+.offer-box-title {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 1.5vw;
+}
+
+.bezpiecznafirma {
+    background-image: url('../static/ofertakafelki/bezpiecznafirma.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bezpiecznaszkola {
+    background-image: url('../static/ofertakafelki/bezpiecznaszkola.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bezpiecznyhotel {
+    background-image: url('../static/ofertakafelki/bezpiecznyhotel.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bezpiecznysport {
+    background-image: url('../static/ofertakafelki/bezpiecznysport.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bezpiecznemundurowe {
+    background-image: url('../static/ofertakafelki/bezpiecznemundurowe.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pierwszapomoc {
+    background-image: url('../static/ofertakafelki/pierwszapomoc.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
